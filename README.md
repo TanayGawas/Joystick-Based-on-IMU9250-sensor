@@ -1,0 +1,62 @@
+# 🎮 IMU-Based Joystick using Gyroscope
+
+## 📌 Overview
+This project implements a **gesture-based joystick system** using an **IMU (Inertial Measurement Unit)** sensor.  
+Instead of a traditional mechanical joystick, this system uses **gyroscope and accelerometer data** to detect motion and convert it into control signals.
+
+The project demonstrates real-time motion tracking and provides a smooth and responsive control interface for various applications.
+
+---
+
+## 🚀 Features
+- Real-time motion sensing using IMU  
+- Gyroscope + Accelerometer integration  
+- Smooth and responsive joystick output  
+- Noise filtering and calibration  
+- Multi-axis control (X, Y, optional Z)  
+- Modular and scalable code structure  
+
+---
+
+## 🛠️ Hardware Requirements
+- Microcontroller (Teensy / Arduino)
+- IMU Sensor (e.g., MPU6050 / MPU9250)
+- USB Cable
+- Breadboard & Connecting Wires
+
+---
+
+## 💻 Software Requirements
+- PlatformIO / Arduino IDE  
+- C++ (Embedded Programming)  
+- Serial Monitor for debugging  
+
+---
+
+## 📂 Project Structure
+
+
+
+
+---
+
+## ⚙️ Working Principle
+1. IMU sensor reads orientation and motion data  
+2. Raw data is processed and filtered  
+3. Motion is mapped to joystick axis values  
+4. Output signals are generated in real-time  
+
+---
+
+## 📊 Applications
+- Gaming controllers  
+- Robotics control  
+- VR/AR input systems  
+- Assistive technology  
+
+---
+
+## 🔧 Setup & Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/BE-JOYSTICK-PROJECT.git
