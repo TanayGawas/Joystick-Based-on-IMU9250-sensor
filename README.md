@@ -19,7 +19,7 @@ The project demonstrates real-time motion tracking and provides a smooth and res
 ---
 
 ## 🛠️ Hardware Requirements
-- Microcontroller (Teensy / Arduino)
+- Micro controller (Teensy / Arduino)
 - IMU Sensor (e.g., MPU6050 / MPU9250)
 - USB Cable
 - Breadboard & Connecting Wires
@@ -66,11 +66,8 @@ src/<br>
 - Gaming controllers  
 - Robotics control  
 - VR/AR input systems  
-- Assistive technology  
+- Assistive technology 
+- Drone Controllers 
 
 ---
 
-## 🔧 Setup & Installation
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/BE-JOYSTICK-PROJECT.git
