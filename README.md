@@ -35,19 +35,20 @@ The project demonstrates real-time motion tracking and provides a smooth and res
 
 ## 📂 Project Structure
 
-include/
-├── config.h # Centralized configuration and system parameters management
-├── filter.h # Signal processing interfaces for noise reduction and data smoothing
-├── imu.h # Abstraction layer for IMU sensor data acquisition and handling
-├── joystick.h # Motion-to-input mapping logic for joystick axis generation
-└── usb_output.h # Interface for USB communication and HID data transmission
+include/<br>
+├── config.h # Centralized configuration and system parameters management<br>
+├── filter.h # Signal processing interfaces for noise reduction and data smoothing<br>
+├── imu.h # Abstraction layer for IMU sensor data acquisition and handling<br>
+├── joystick.h # Motion-to-input mapping logic for joystick axis generation<br>
+└── usb_output.h # Interface for USB communication and HID data transmission<br>
 
-src/
-├── filter.cpp # Implementation of filtering algorithms (e.g., smoothing, stabilization)
-├── imu.cpp # Real-time IMU data acquisition and preprocessing
-├── joystick.cpp # Conversion of processed sensor data into joystick control signals
-├── main.cpp # Application entry point and system integration logic
-└── usb_output.cpp # USB data handling and host communication implementation
+
+src/<br>
+├── filter.cpp # Implementation of filtering algorithms (e.g., smoothing, stabilization)<br>
+├── imu.cpp # Real-time IMU data acquisition and preprocessing<br>
+├── joystick.cpp # Conversion of processed sensor data into joystick control signals<br>
+├── main.cpp # Application entry point and system integration logic<br>
+└── usb_output.cpp # USB data handling and host communication implementation<br>
 
 
 
