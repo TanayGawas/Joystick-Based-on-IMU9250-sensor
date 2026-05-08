@@ -1,4 +1,4 @@
-# 🎮 IMU-Based Joystick using Gyroscope
+# 🎮 IMU-Based Joystick using Gyroscope (6-axis fusion)
 
 ## 📌 Overview
 This project implements a **gesture-based joystick system** using an **IMU (Inertial Measurement Unit)** sensor.  
