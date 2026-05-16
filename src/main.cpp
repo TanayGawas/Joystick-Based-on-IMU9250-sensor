@@ -1,35 +1,28 @@
-// #include <Arduino.h>
-
-// // put function declarations here:
-// int myFunction(int, int);
-
-// void setup() {
-//   // put your setup code here, to run once:
-//   int result = myFunction(2, 3);
-// }
-
-// void loop() {
-//   // put your main code here, to run repeatedly:
-// }
-
-// // put function definitions here:
-// int myFunction(int x, int y) {
-//   return x + y;
-// }
-
-
-
-//TEST CODE
-
 #include <Arduino.h>
 
-void setup() {
-    pinMode(LED_BUILTIN, OUTPUT);
+#include "imu.h"
+#include "mapping.h"
+
+// =====================================
+// Setup
+// =====================================
+void setup()
+{
+    Serial.begin(115200);
+
+    imu_init();
+
+    Serial.println("Joystick System Started");
 }
 
-void loop() {
-    digitalWrite(LED_BUILTIN, HIGH);
-    delay(500);
-    digitalWrite(LED_BUILTIN, LOW);
-    delay(500);
+// =====================================
+// Main Loop
+// =====================================
+void loop()
+{
+    imu_update();
+
+    joystick_update();
+
+    delay(10);
 }
